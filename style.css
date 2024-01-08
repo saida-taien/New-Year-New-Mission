@@ -1,0 +1,441 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+body
+{
+    width: 1600px;
+    background: #FFF;
+}
+.banner
+{
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    background-image: url('resources/Banner\ Image.png');
+    
+}
+.banner-title
+{
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
+}
+.banner-title h3
+{
+    color: #FFF;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 25px;
+}
+.title2
+{
+    width: 600px;
+    height: 600px;
+    
+}
+.title2 h1
+{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 360px;
+    top: 20px;
+
+}
+.discount h1
+{
+    padding-top: 150px;
+    text-align: center;
+    color: #F00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+.discount p
+{
+    color: rgb(107, 2, 177);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.discount h3
+{
+    color: rgba(58, 16, 13, 0.87);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.discount img
+{
+    width: 800px ;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+.welcome
+{
+    width: 1320px;
+    height: 600px;
+    background-image: url('resources/Vectorrr.png');
+    position: relative;
+    top: 150px;
+    left: 150px;
+    border-radius: 20px;
+    
+}
+.welcome-properties
+{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+
+}
+.welcome-text h1
+{
+    padding: 100px 0px 0px 125px;
+    width: 470px;
+    font-size: 70px;
+    color: white;
+}
+.welcome-text p
+{
+    width: 470px;
+    color: rgb(185, 179, 179);
+    padding: 10px 0px 0px 125px;
+
+}
+.welcome-image img
+{
+    height: 465px;
+    width: 320px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.join-now
+{
+    width: 1320px;
+    height: 460px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.322) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border: 2px;
+    position: relative;
+    top: 250px;
+    left: 140px;
+    padding-top: 100px;
+}
+.join-now-text h3
+{
+    text-align: center;
+    width: 550px;
+    font-size: 35px;
+    padding: 0 0 20px 340px;
+}
+.join-now button
+{
+    padding: 25px 35px;
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 570px ; 
+}
+.join-now button:hover
+{
+    background-color: brown;
+}
+
+.coming-soon
+{
+    width: 1320px;
+    height: 400px;
+    position: relative;
+    top: 350px;
+    left: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.coming-soon-title h4
+{
+    width: 395px;
+    padding-top: 55px;
+    font-size: 20px;
+    color: rgb(122, 1, 1);
+    letter-spacing: 8px;
+}
+.coming-soon-title h1
+{
+    width: 395px;
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(2, 33, 59);
+}
+.coming-soon-title p
+{
+    width: 395px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: darkcyan;
+    text-align: center;
+}
+.coming-soon-image
+{
+    width: 875px;
+    height:  322px;
+    border: 15px solid rgb(2, 33, 59) ;
+    border-radius: 100%;
+    position: relative;
+    left: 70px;
+    right: 118px;
+    top: 10px;
+}
+.coming-soon-image img
+{
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    right: 300px;
+
+}
+.coming-soon-description
+{
+    position: relative;
+    left: 150px;
+}
+.coming-soon-description h1
+{
+    width: 395px;
+    padding-top: 100px;
+    font-size: 60px;
+    color: rgb(2, 33, 59);
+}
+.coming-soon-description 
+{
+    margin-right: 150px;
+}
+.coming-soon-description p
+{
+    color: rgb(2, 33, 59);
+}
+.holidays
+{
+    width: 1320px;
+    position: relative;
+    top: 450px;
+    left: 140px;
+}
+.holidays h1
+{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Merriweather', serif;
+}
+.holidays p
+{
+    text-align: center;
+    padding: 10px 265px 50px 265px;
+}
+
+.holiday-image
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#image1
+{
+    position: relative;
+    top: 220px;
+    
+}
+#image2
+{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}  
+
+.portfolio
+{
+    width: 1320px;
+    position: relative;
+    top: 550px;
+    left: 140px;
+}
+.products
+{
+    width: 1320px;
+    margin-top: 40px;
+}
+.products img
+{
+    padding: 10px ;
+    position: relative;
+    left: 5px;
+    width: 410px;
+    height: 400px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.products img:hover
+{
+    transform: scale(1.1);
+}
+.newsletter
+{
+    width: 1320px;
+    height: 500px;
+    position: relative;
+    top: 750px;
+    left: 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.322);
+}
+.newsletter img
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 80px;
+    left: 585px;
+}
+.newsletter h1
+{
+    font-size: 50px;
+    padding-top: 80px;
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.newsletter form 
+{
+    position: relative;
+    top: 35px;
+    left: 250px;
+    width: 600px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+.newsletter form input
+{
+    border: none;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    background: none;
+}
+.newsletter .btn 
+{
+    color: white;
+    position: relative;
+    bottom: 28px;
+    left: 850px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    font-size: 25px;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+footer
+{
+    width: 1600px;
+    height: 550px;
+    background-color: black;
+    position: relative;
+    top: 850px;
+}
+.about-us
+{
+    width: 1320px;
+    height: 500px;
+    position: relative;
+    left: 140px;
+
+}
+
+.address
+{
+    display: flex;
+    justify-content: space-between;
+}
+.address p
+{
+    color: white;
+    font-size: 20px;
+}
+.address .address-text 
+{
+    width: 375px;
+    height:80px;
+    position: relative;
+    left: 140px;
+    top: 100px;
+}
+.address .contact .call , .web
+{
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+    position: relative;
+    right: 290px;
+    top: 100px;
+}
+.socials
+{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+.copyright
+{
+    display: flex;
+    justify-content: space-between; 
+}
+.copyright p
+{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 140px;
+    top: 50px;
+
+}
+.copyright button
+{
+    position: relative;
+    right: 290px;
+    top: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+}
