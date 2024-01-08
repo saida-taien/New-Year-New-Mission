@@ -10,6 +10,7 @@ body
     width: 1600px;
     background: #FFF;
 }
+/* banner style */
 .banner
 {
     width: 1320px;
@@ -53,6 +54,7 @@ body
     top: 20px;
 
 }
+/* Discount style */
 .discount h1
 {
     padding-top: 150px;
@@ -84,6 +86,7 @@ body
     top: 50px;
     left: 400px;
 }
+/* Midnight party style  */
 .welcome
 {
     width: 1320px;
@@ -127,6 +130,7 @@ body
     top: 100px;
     right: 50px;
 }
+/* Join Now style   */
 .join-now
 {
     width: 1320px;
@@ -161,6 +165,8 @@ body
 {
     background-color: brown;
 }
+
+/* coming soon style  */
 
 .coming-soon
 {
@@ -236,6 +242,7 @@ body
 {
     color: rgb(2, 33, 59);
 }
+/* Holidays Style  */
 .holidays
 {
     width: 1320px;
@@ -278,6 +285,7 @@ body
     top: 150px;
 }  
 
+/* Portfolio Style  */
 .portfolio
 {
     width: 1320px;
@@ -304,6 +312,8 @@ body
 {
     transform: scale(1.1);
 }
+
+/* Newsletter Style  */
 .newsletter
 {
     width: 1320px;
@@ -362,7 +372,8 @@ body
     padding: 10px;
     border-radius: 50px;
 }
-
+ 
+ /* Footer Style  */
 footer
 {
     width: 1600px;
